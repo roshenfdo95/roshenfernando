@@ -77,7 +77,7 @@ const [modalData, setModalData] = useState(null);
                 <div className="row pt-5" key={project.id}>
                     <div className="col-lg-6 col-md-12">
                         <div className="about-image">
-                            <img src={project.image} alt="mylogo" className="img-fluid"/>
+                            <img src={project.image} alt="project" className="img-fluid"/>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12 about-title">
@@ -109,7 +109,7 @@ const [modalData, setModalData] = useState(null);
                         {designdata.map((design) =>
                         <div className="card col-12 col-md-5 ml-5 mt-5" key={design.id} >
                             <img className="card-img-top" alt="ux" data-toggle="modal" data-target=".bd-example-modal-lg" src={design.image} onClick={()=>{setModalData(design.image);}}/>
-                            <div className="image__overlay" data-toggle="modal" data-target=".bd-example-modal-lg" src={design.image} alt="Card image cap" onClick={()=>{setModalData(design.image);}}>
+                            <div className="image__overlay" data-toggle="modal" data-target=".bd-example-modal-lg" src={design.image} alt="design" onClick={()=>{setModalData(design.image);}}>
                                 <div className="image__title">Click to view</div>
         
                             </div>
