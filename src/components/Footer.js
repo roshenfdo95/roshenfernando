@@ -46,7 +46,7 @@ const Footer = () => {
         <h5 className="text-uppercase">Have a Questions?</h5>
         <ul className="list-unstyled">
           <li>
-            <a href="#!" className="email">roshenmadushanka@gmail.com</a>
+            <a className="email">roshenmadushanka@gmail.com</a>
           </li>
         </ul>
       </div>
@@ -56,7 +56,7 @@ const Footer = () => {
     <h5>Designed and Developed by Roshen Fernando</h5>
   </div>
   <div className="footer-copyright text-center py-3">© 2021 Copyright:
-    <a href="#"> RM</a>
+    <a> RM</a>
   </div>
 </footer>
     </>

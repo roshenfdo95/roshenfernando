@@ -11,7 +11,7 @@ export const projectdata =
         id: 0,
         title: 'Portfolio',
         tech: 'React, Bootstrap',
-        image: './Images/Portfolio.png', 
+        image: '/Images/Portfolio.png', 
         descripton: 'Final Project',
         school: 'Front-End Web Development with React In Cousera',
         code:'https://github.com/roshenfdo95'

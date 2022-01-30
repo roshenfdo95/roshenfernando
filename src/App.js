@@ -9,11 +9,11 @@ import Scroll from './components/Scroll';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/roshenfernando">
     <Scroll/>
     <Navbar/>
-    <Header/>
-      <Routes basename="/roshenfernando">
+      <Routes>
+        <Route path="/" element={<Header/>} /> 
         <Route path="/About" element={<About/>} /> 
         <Route path="/Project" element={<Project/>} />  
       </Routes>
