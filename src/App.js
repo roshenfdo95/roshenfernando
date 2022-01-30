@@ -12,8 +12,8 @@ function App() {
     <BrowserRouter basename="/roshenfernando">
     <Scroll/>
     <Navbar/>
+    <Header/>
       <Routes>
-        <Route path="/" element={<Header/>} />
         <Route path="/About" element={<About/>} /> 
         <Route path="/Project" element={<Project/>} />  
       </Routes>
