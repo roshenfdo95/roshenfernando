@@ -10,7 +10,7 @@ export const projectdata =
         id: 0,
         title: 'Portfolio',
         tech: 'React, Bootstrap',
-        image: '/Images/desktop-1.png', 
+        image: '/Images/Portflio.png', 
         descripton: 'Final Project',
         school: 'Front-End Web Development with React In Cousera',
         code:'https://github.com/roshenfdo95'
@@ -21,7 +21,7 @@ export const projectdata =
         id: 1,
         title: 'Blog Site',
         tech: 'React, Tailwind, Sanity CMS',
-        image: '/Images/desktop-1.png', 
+        image: '/Images/background.png', 
         descripton: 'I created this blog site during learning on react and tailwind',
         school: 'online course',
         code:'https://github.com/roshenfdo95'
@@ -31,8 +31,8 @@ export const projectdata =
         id: 3,
         title: 'Portfolio V1',
         tech: 'Html, Sass',
-        image: '/Images/desktop-1.png', 
-        descripton: 'I created this blog site during learning on sass',
+        image: '/Images/portfoliov1.png', 
+        descripton: 'I created this portfolio site during learning on sass',
         school: 'Online course',
         code:'https://github.com/roshenfdo95'
 
@@ -41,7 +41,7 @@ export const projectdata =
         id: 4,
         title: 'Online Library Website Template',
         tech: 'Html, Css, Bootstrap',
-        image: '/Images/desktop-1.png', 
+        image: '/Images/background.png', 
         descripton: 'I created this blog site during learning on sass',
         school: 'Online course',
         code:'https://github.com/roshenfdo95'
@@ -55,25 +55,10 @@ export const designdata =
         id: 0,
         title: 'Portfolio Website Design',
         category: 'Figma',
-        image: '/Images/desktop-1.png'
+        image: '/Images/shop_design.png'
         
         
 
-
-    },
-    {
-        id: 1,
-        title: 'Home Page For shop website',
-        category: 'Figma',
-        image: '/Images/background.png'
-        
-
-    },
-    {
-        id: 2,
-        title: 'Portfolio',
-        category: 'Figma',
-        image: '/Images/desktop-1.png'
 
     }
    
