@@ -1,3 +1,17 @@
+# personal-portfolio
+
+# Installation
+
+## React
+
+The node_modules directory is not a part of a cloned repository and should be downloaded using the npm install.
+
+```bash
+1 # make sure that you are in the root directory of the project, use" pwd" or "cd" for windows
+2 cd RepoName
+3 npm install
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
