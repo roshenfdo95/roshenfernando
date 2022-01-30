@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/roshenfernando/static/css/main.6e89bdfc.css",
+    "main.js": "/roshenfernando/static/js/main.e3b5862e.js",
+    "static/js/787.69d52779.chunk.js": "/roshenfernando/static/js/787.69d52779.chunk.js",
+    "static/media/background.png": "/roshenfernando/static/media/background.562a615eac9e68cee39b.png",
+    "static/media/bubble.png": "/roshenfernando/static/media/bubble.5abfb2f4adb1ea0a9089.png",
+    "static/media/about-us.png": "/roshenfernando/static/media/about-us.b89e4185d728718f1687.png",
+    "static/media/boostrap.svg": "/roshenfernando/static/media/boostrap.b4a557af2d8ab915f20b3b8fd9e3ecb9.svg",
+    "static/media/node.svg": "/roshenfernando/static/media/node.ce0579f61d6e2fad15ba7caaa6fbd1e9.svg",
+    "static/media/react.svg": "/roshenfernando/static/media/react.d6cc53b770eeaaf6fcc82ac7e5f75a1d.svg",
+    "static/media/python.svg": "/roshenfernando/static/media/python.11353b3e30abbefd9fddba988687b537.svg",
+    "static/media/wordpress.svg": "/roshenfernando/static/media/wordpress.396966f976e9666aa441b5973595205d.svg",
+    "static/media/java.svg": "/roshenfernando/static/media/java.1db4536f6885e0417cba0b3efd7368ba.svg",
+    "static/media/photoshop.svg": "/roshenfernando/static/media/photoshop.6c2acade9c478be01c3527d0a8221b52.svg",
+    "static/media/php.svg": "/roshenfernando/static/media/php.1b74c64aca003db604a84fc24a88ab7d.svg",
+    "index.html": "/roshenfernando/index.html",
+    "static/media/javascript.svg": "/roshenfernando/static/media/javascript.689f56454867cff6d4c21a2a909803bb.svg",
+    "static/media/css.svg": "/roshenfernando/static/media/css.faee38e5db36bfda52e186b1ed2736a9.svg",
+    "static/media/tailwind.svg": "/roshenfernando/static/media/tailwind.2f2b02681fc5af34188cfe293fc343f2.svg",
+    "static/media/figma.svg": "/roshenfernando/static/media/figma.f22e706687c4cd918f2bd234bbe1c628.svg",
+    "static/media/html.svg": "/roshenfernando/static/media/html.9ba60d5f0cf27c5aa1ca533270889f1e.svg",
+    "main.6e89bdfc.css.map": "/roshenfernando/static/css/main.6e89bdfc.css.map",
+    "main.e3b5862e.js.map": "/roshenfernando/static/js/main.e3b5862e.js.map",
+    "787.69d52779.chunk.js.map": "/roshenfernando/static/js/787.69d52779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e89bdfc.css",
+    "static/js/main.e3b5862e.js"
+  ]
+}
