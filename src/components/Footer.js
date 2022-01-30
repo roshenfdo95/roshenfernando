@@ -23,7 +23,7 @@ const Footer = () => {
                 </a>
                     </span></li>
 				<li><span>
-                     <a href="https://twitter.com/?lang=en" className="icon" target="_blank" rel="noopener noreferrer">
+                     <a href="https://twitter.com/RoshenFdo1" className="icon" target="_blank" rel="noopener noreferrer">
                 <AiFillTwitterCircle />
                 </a>
                     </span></li>
@@ -35,10 +35,10 @@ const Footer = () => {
         <h5 className="text-uppercase">I am available for hire at</h5>
         <ul className="list-unstyled">
           <li>
-            <a href="#!">Latium Freelancing</a>
+            <a href="https://latium.org/profile/roshenfdo" target="_blank" rel="noopener noreferrer">Latium Freelancing</a>
           </li>
           <li>
-            <a href="#!">Freelancing</a>
+            <a href="#https://www.freelancer.com/u/roshenmadushanka" target="_blank" rel="noopener noreferrer">Freelancing</a>
           </li>
         </ul>
       </div>

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Design1 from "./Images/shop_design.png";
 // import clip from "./Images/about-us.png";
 
@@ -32,7 +32,7 @@ export const projectdata =
         id: 3,
         title: 'Portfolio V1',
         tech: 'Html, Sass',
-        image: '/Images/portfoliov1.jpg', 
+        image: './Images/portfoliov1.jpg', 
         descripton: 'I created this portfolio site during learning on sass',
         school: 'Online course',
         code:'https://github.com/roshenfdo95'
@@ -42,7 +42,7 @@ export const projectdata =
         id: 4,
         title: 'Online Library Website Template',
         tech: 'Html, Css, Bootstrap',
-        image: '/Images/background.png', 
+        image: './Images/background.png', 
         descripton: 'I created this blog site during learning on sass',
         school: 'Online course',
         code:'https://github.com/roshenfdo95'
