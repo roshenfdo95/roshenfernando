@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/roshenfernando/static/css/main.6e89bdfc.css",
-    "main.js": "/roshenfernando/static/js/main.01216a26.js",
+    "main.js": "/roshenfernando/static/js/main.676bcee7.js",
     "static/js/787.69d52779.chunk.js": "/roshenfernando/static/js/787.69d52779.chunk.js",
+    "static/media/shop_design.png": "/roshenfernando/static/media/shop_design.9c9406088cd7d0ec1343.png",
     "static/media/background.png": "/roshenfernando/static/media/background.562a615eac9e68cee39b.png",
     "static/media/bubble.png": "/roshenfernando/static/media/bubble.5abfb2f4adb1ea0a9089.png",
     "static/media/about-us.png": "/roshenfernando/static/media/about-us.b89e4185d728718f1687.png",
@@ -21,11 +22,11 @@
     "static/media/figma.svg": "/roshenfernando/static/media/figma.f22e706687c4cd918f2bd234bbe1c628.svg",
     "static/media/html.svg": "/roshenfernando/static/media/html.9ba60d5f0cf27c5aa1ca533270889f1e.svg",
     "main.6e89bdfc.css.map": "/roshenfernando/static/css/main.6e89bdfc.css.map",
-    "main.01216a26.js.map": "/roshenfernando/static/js/main.01216a26.js.map",
+    "main.676bcee7.js.map": "/roshenfernando/static/js/main.676bcee7.js.map",
     "787.69d52779.chunk.js.map": "/roshenfernando/static/js/787.69d52779.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e89bdfc.css",
-    "static/js/main.01216a26.js"
+    "static/js/main.676bcee7.js"
   ]
 }
