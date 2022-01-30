@@ -9,7 +9,7 @@ import Scroll from './components/Scroll';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/roshenfernando">
     <Scroll/>
     <Navbar/>
       <Routes>
