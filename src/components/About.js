@@ -11,7 +11,7 @@ import { RmFigma, RmReact, RmHtml, RmJavascript, RmJava, RmNode, RmCss, RmBoostr
 const Skills = () => {
     return (
         <>
-         <section className="about-area border">
+         <section className="about-area">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-6 col-md-12">

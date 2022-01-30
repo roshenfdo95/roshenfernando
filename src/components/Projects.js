@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Design1 from "./Images/shop_design.png";
 // import clip from "./Images/about-us.png";
 
 
@@ -10,7 +11,7 @@ export const projectdata =
         id: 0,
         title: 'Portfolio',
         tech: 'React, Bootstrap',
-        image: '/Images/Portflio.png', 
+        image: './Images/Portfolio.png', 
         descripton: 'Final Project',
         school: 'Front-End Web Development with React In Cousera',
         code:'https://github.com/roshenfdo95'
@@ -21,7 +22,7 @@ export const projectdata =
         id: 1,
         title: 'Blog Site',
         tech: 'React, Tailwind, Sanity CMS',
-        image: '/Images/background.png', 
+        image: './Images/background.png', 
         descripton: 'I created this blog site during learning on react and tailwind',
         school: 'online course',
         code:'https://github.com/roshenfdo95'
@@ -31,7 +32,7 @@ export const projectdata =
         id: 3,
         title: 'Portfolio V1',
         tech: 'Html, Sass',
-        image: '/Images/portfoliov1.png', 
+        image: '/Images/portfoliov1.jpg', 
         descripton: 'I created this portfolio site during learning on sass',
         school: 'Online course',
         code:'https://github.com/roshenfdo95'
@@ -49,24 +50,22 @@ export const projectdata =
     }
 ]
 
-export const designdata =
-[
-    {
-        id: 0,
-        title: 'Portfolio Website Design',
-        category: 'Figma',
-        image: '/Images/shop_design.png'
+// export const designdata =
+// [
+//     {
+//         id: 0,
+//         title: 'Portfolio Website Design',
+//         category: 'Figma',
+//         image: '/Images/shop_design.png'
         
         
 
 
-    }
+//     }
    
-]
+// ]
 
 const Projects = () => {
-
-const [modalData, setModalData] = useState(null);
 
     return (
         <>
@@ -106,21 +105,21 @@ const [modalData, setModalData] = useState(null);
 
                     <div className="row border">
 
-                        {designdata.map((design) =>
-                        <div className="card col-12 col-md-5 ml-5 mt-5" key={design.id} >
-                            <img className="card-img-top" alt="ux" data-toggle="modal" data-target=".bd-example-modal-lg" src={design.image} onClick={()=>{setModalData(design.image);}}/>
-                            <div className="image__overlay" data-toggle="modal" data-target=".bd-example-modal-lg" src={design.image} alt="design" onClick={()=>{setModalData(design.image);}}>
+                        
+                        <div className="card col-12 col-md-5 ml-5 mt-5">
+                            <img className="card-img-top" alt="ux" data-toggle="modal" data-target=".bd-example-modal-lg" src={Design1}/>
+                            <div className="image__overlay" data-toggle="modal" data-target=".bd-example-modal-lg" src={Design1} alt="design">
                                 <div className="image__title">Click to view</div>
         
                             </div>
                             <div className="card-body">
-                                <h5 className="card-text">{design.title}</h5>
+                                <h5 className="card-text">Portfolio Website Design</h5>
                                 
                             </div>
 
                          </div>
                          
-                       )}
+                      
                     </div>                        
                     
                 </div>              
@@ -131,7 +130,7 @@ const [modalData, setModalData] = useState(null);
         <div className="modal fade bd-example-modal-lg" tabIndex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
              <div className="modal-dialog modal-lg">
                     <div className="modal-content">
-                        <img className="card-img-top" src={modalData} alt="viewer"/>
+                        <img className="card-img-top" src={Design1} alt="viewer"/>
                                         
                     </div>
             </div>
